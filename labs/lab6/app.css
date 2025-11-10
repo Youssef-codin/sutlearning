@@ -10,8 +10,8 @@ body {
   height: 250px;
 }
 
-#container {
-  background-color: red;
+#flex-container {
+  background-color: darkslateblue;
   height: 150px;
   padding: 10px;
   display: flex;
@@ -21,6 +21,24 @@ body {
 
 }
 
+#grid-container {
+  background-color: darkslateblue;
+  height: 150px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 .child {
   margin: 10px;
+  padding: 5px;
+  height: 50px;
+  background-color: slateblue;
+  color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
